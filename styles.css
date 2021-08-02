@@ -105,21 +105,74 @@
 }
 
 .featuresSection {
-    height: 100vh;
-    width: 100%;
+    height: 120vh;
 }
 
-.featuresSection h1 {
+.featuresHeading {
     text-align: center;
-    margin-top: 50px;
-    font-size: 3.2rem;
-    letter-spacing: 1.5px;
-
+    margin-top: 20px;
+    font-size: 3rem;
 }
-
-.featuresSection p {
+.featuresPara {
+    text-align: center;
+    margin: 40px 0;
     font-size: 1.2rem;
     letter-spacing: 1.5px;
-    text-align: center;
-    margin-top: 30px;
+}
+
+.featureSquares {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr );
+    grid-gap: 20px;
+}
+
+.mainPic {
+    background: url('./images/featuresMainImg.jpg')center/cover;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.square1, .square2, .square3, .square4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.square1 h2, .square2 h2, .square3 h2, .square4 h2 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.square1 img, .square2 img, .square3 img, .square4 img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.square1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: rgb(41, 183, 221);
+}
+
+.square2 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background: rgb(139, 114, 238);
+}
+.square3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background: rgb(93, 59, 231);
+}
+
+.square4 {
+    grid-column: 4 / 5;
+    grid-row: 2/3;
+    background: rgb(189, 114, 239);
 }
