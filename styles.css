@@ -22,6 +22,7 @@
     top: 0;
     left: 0;
     background: purple;
+    z-index: 10;
 }
 
 .featuresSection {
@@ -141,6 +142,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
+}
+
+.square1:hover, .square2:hover, .square3:hover, .square4:hover {
+    opacity: 0.82;
+    transition: 0.3s;
 }
 
 .square1 h2, .square2 h2, .square3 h2, .square4 h2 {
@@ -175,4 +182,70 @@
     grid-column: 4 / 5;
     grid-row: 2/3;
     background: rgb(189, 114, 239);
+}
+
+.dataSection {
+    background: rgb(55, 5, 121);
+    display: flex;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.dataSection img {
+    height: 500px;
+    width: 800px;
+    background: rgb(69, 7, 150);
+    padding: 30px;
+}
+
+.dataHeading {
+    background: rgb(55, 5, 121);
+    height: 50px;
+    padding-top: 80px;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding-left: 75px;
+    color: #fff;
+    
+}
+
+.vizInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    width: 455px;
+    color: rgb(218, 218, 218);
+    padding-bottom: 100px;
+}
+
+.paraDiv {
+    margin-bottom: 60px;
+}
+
+.paraDiv h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.paraDiv p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    margin-left: 55px;
+}
+
+.dataSection h2 {
+    margin-top: 80px;
+}
+
+.dataSection h3 {
+    border-bottom: 2px solid#fff;
+    width: 14%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 55px;
 }
