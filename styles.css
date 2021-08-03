@@ -249,3 +249,9 @@
     cursor: pointer;
     margin-left: 55px;
 }
+
+.solutionSection {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
