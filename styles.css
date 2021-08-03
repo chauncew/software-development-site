@@ -254,4 +254,67 @@
     height: 100vh;
     width: 100%;
     display: flex;
+    margin-top: 50px;
+}
+
+.solImg {
+    position: relative;
+}
+
+.spinGear {
+    animation: gearSpin 2s linear infinite;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+
+.solutionsInfo {
+    padding: 0 80px;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.solutionsIcon {
+    padding-left: 60%;
+}
+
+.solutionsInfo h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: rgb(75, 191, 223);
+    text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
+.solutionsInfo p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.solutionsInfo button {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(81, 208, 243);
+    color: rgb(34, 34, 34);
+    text-shadow: 1px 1px rgba(245,245,245,0.8);
+    transition: 0.3s;
+}
+
+.solutionsInfo button:hover {
+    background: rgb(72, 183, 214);
+}   
+
+@keyframes gearSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
