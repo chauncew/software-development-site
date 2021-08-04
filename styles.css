@@ -527,3 +527,28 @@
     top: 17%;
     border-radius: 10px;
 }
+
+.webSection {
+    height: 100vh;
+    width: 100%;
+    background: rgb(59, 6, 94);
+    position: relative;
+}
+
+.webImage {
+    height: 550px;
+    width: 625px;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.blueBox {
+    height: 550px;
+    width: 450px;
+    background: rgb(40, 1, 112);
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
