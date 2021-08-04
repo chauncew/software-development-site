@@ -318,3 +318,91 @@
         transform: rotate(360deg);
     }
 }
+
+.infoSection {
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background: #4bb1f8;;
+}
+
+/* .squareLines {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    transform: rotate(90deg);
+} */
+
+.squareLines {
+    height: 750px;
+    width: 700px;
+    background-color: #4bb1f8;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%231222e7' fill-opacity='0.98' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E"); 
+    position: absolute;
+    top: 5%;
+    right: 10%;
+
+}
+
+.ladyGlass {
+    background: url('https://freedesignfile.com/upload/2017/11/Technology-future-development-trend-Stock-Photo-02.jpg')center/cover;
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+.infoSquares {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+
+.iSquare {
+    height: 225px;
+    width: 225px;
+    background: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.iSquare {
+    overflow: hidden;
+
+}
+
+.overflow {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.overflow:hover {
+    transform: scale(1.4);
+}
+
+.iSquare1 h3, .iSquare2 h3, .iSquare3 h3, .iSquare4 h3 {
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+
+.infoIcons {
+    height: 85px;
+    width: 85px;
+    background: rgb(89, 208, 248);
+    border-radius: 50%;
+    padding: 10px;
+}
