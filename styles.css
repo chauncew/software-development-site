@@ -591,7 +591,7 @@
     padding: 15px 40px;
     border-radius: 50px;
     border: none;
-    background: rgb(40, 1, 112);;
+    background: rgb(40, 1, 112);
     color: rgb(34, 34, 34);
     transition: 0.3s;
     color: #fff;
@@ -607,7 +607,7 @@
     width: 100%;
     display: flex;
     padding: 0 80px;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 .processSection h1 {
@@ -654,4 +654,46 @@
 .processInfo button:hover {
     background: rgb(72, 183, 214);
     cursor: pointer;
+}
+
+.inTouchSection {
+    height: 100vh;
+    width: 100%;
+    background: rgb(59, 6, 94);
+    color: #fff;
+}
+
+.inTouchSection h1 {
+    padding-top: 80px;
+    font-size: 3.2rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inTouchSection h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card1, .card2, .card3 {
+    height: 400px;
+    width: 400px;
+    background: #fff;
+    color: gray;
+}
+
+footer {
+    height: 100px;
+    background: gray;
 }
