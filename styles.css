@@ -729,5 +729,11 @@
 
 footer {
     height: 100px;
-    background: gray;
+    background: rgb(37, 37, 37);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
 }
