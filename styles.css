@@ -765,6 +765,7 @@ footer {
     }
     .hamburger {
         display: block;
+        z-index: 1;
     }
     .landingImg {
     height: 375px;
@@ -991,6 +992,10 @@ footer {
     }
     .processInfo p {
         font-size: 1.2rem;
+    }
+
+    .inTouchSection {
+        height: 90vh;
     }
 
     .inTouchSection h1 {
