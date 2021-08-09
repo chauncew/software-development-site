@@ -816,17 +816,231 @@ footer {
         grid-row: 4/5;
     }
 
-    .dataSection {
-        
-    }
   
-    /* .featureSquares {
+    .dataHeading {
+        font-size: 2.7rem;
+    }
+
+    .dataSection img {
+        height: 300px;
+        width: 620px;
+        background: rgb(69, 7, 150);
+        /* margin: 0 auto; */
+    }
+
+    .dataSection {
+        display: block;
+    }
+
+    .vizInfo {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vizInfo h2{
+        font-size: 1.5rem;
+    }
+
+    .solutionSection {
+        flex-direction: column;
+    }
+
+    .solutionsInfo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .solutionsInfo p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .solutionsInfo button {
+        margin-top: 40px;
+    }
+
+    .solutionsIcon {
+        margin-top: 80px;
+        padding-left: 18%;
+    }
+
+    .spinGear {
+        top: 10%;
+        left: 30%;
+    }
+
+    .magnifier {
+        top: 30%;
+        right: 10%;
+    }
+    
+    .squareLines {
+    height: 550px;
+    width: 500px;
+    }
+
+    .ladyGlass {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 8%;
+    right: 18%;
+    }
+
+    .ItSection {
     height: 100vh;
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr );
-    grid-gap: 20px;
-} */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 70px;
+    justify-content: space-evenly; */
+    position: relative;
+    margin-top: 0;
+    }
+
+    .brackets {
+        left: 63%;
+    }
+
+    .curly {
+        left: 15%;
+        top: 17%;
+    }
+
+    .gear {
+        top: 25%;
+        left: 78%;
+    }
+
+    .greaterLess {
+        top: 40%;
+        left: 12%;
+    }
+
+    .youtube {
+        right: 10%;
+    }
+
+    .itInfo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .itInfo h1 {
+        text-align: center;
+    }
+
+    /* .ItSection h1 {
+        margin: 0;
+        padding: 0;
+    } */
+
+    .itInfo p {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .itInfo button {
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+    .webSection {
+        height: 120vh
+    }
+    .webInfo button {
+        font-size: 1rem;
+        padding: 13px 40px;
+    }
+    .design {
+    height: 550px;
+    width: 500px;
+    top: 40%;
+    left: 20%;
+    }
+    .blueBox, .webImage {
+        z-index: 1;
+    }
+    .webInfo {
+        z-index: 2;
+        top: 50%;
+    }
+
+    .processSection {
+        height: 70vh;
+    }
+
+    .processSection h1 {
+        font-size: 2.2rem;
+        width: 100%;
+    }
+
+    .line {
+        height: 6px;
+        width: 40%;
+    }
+    .processInfo {
+        width: 100%;
+        height: 10%;
+    }
+    .processInfo p {
+        font-size: 1.2rem;
+    }
+
+    .inTouchSection h1 {
+        padding-top: 50px;
+        font-size: 2.8rem;
+    }
+    .inTouchSection h2 {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
+
+.card1, .card2, .card3 {
+    height: 350px;
+    width: 225px;
+    padding: 0;
+}
+
+.card1 p, .card2 p, .card3 p {
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.card1 h3 {
+    margin-top: 20px;
+}
+
+.card2 p, .card3 p {
+    margin-bottom: 50px;
+}
+
+.card2 h3, .card3 h3 {
+    margin-top: 20px;
+}
+
+.card1 h3, .card2 h3, .card3 h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.touchIcons {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    /* border: 2px solid #000; */
+}
+}   
