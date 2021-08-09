@@ -6,8 +6,6 @@
 }
 
 html {
-    /* width: 100%;
-    height: 100%; */
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -365,15 +363,6 @@ body {
     position: relative;
     background: #4bb1f8;;
 }
-
-/* .squareLines {
-    height: 600px;
-    width: 600px;
-    position: absolute;
-    top: 2%;
-    right: 10%;
-    transform: rotate(90deg);
-} */
 
 .squareLines {
     height: 750px;
@@ -759,6 +748,8 @@ footer {
     letter-spacing: 1.5px;
 }
 
+/* Tablet media queries */
+
 @media (max-width: 770px) {
     .navigation ul {
         display: none;
@@ -826,7 +817,6 @@ footer {
         height: 300px;
         width: 620px;
         background: rgb(69, 7, 150);
-        /* margin: 0 auto; */
     }
 
     .dataSection {
@@ -898,8 +888,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 70px;
-    justify-content: space-evenly; */
     position: relative;
     margin-top: 0;
     }
@@ -936,11 +924,6 @@ footer {
     .itInfo h1 {
         text-align: center;
     }
-
-    /* .ItSection h1 {
-        margin: 0;
-        padding: 0;
-    } */
 
     .itInfo p {
         font-size: 1.2rem;
@@ -1013,6 +996,7 @@ footer {
     margin-top: 40px;
 }
 
+
 .card1, .card2, .card3 {
     height: 350px;
     width: 225px;
@@ -1046,6 +1030,114 @@ footer {
     width: 50px;
     margin-bottom: 20px;
     transition: 0.5s;
-    /* border: 2px solid #000; */
+    }
 }
-}   
+
+/* Tablet landscape media queries */
+
+@media(max-width: 1025px) {
+.navigation ul {
+    display: none;
+}
+.hamburger {
+    display: block;
+}
+
+.landingInfo img {
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.dataSection img {
+    height: 600px;
+    width: 400px;
+    padding-right: 20px;
+}
+
+.dataHeading {
+    padding-top: 40px;
+    margin: 0;
+    font-size: 3rem;
+}
+.vizInfo p {
+    margin-left: 0;
+}
+.solutionsIcon {
+    padding-left: 40px;
+}
+
+.spinGear {
+    left: 20%;
+}
+.magnifier {
+    top: 15%;
+    left: 90%;
+}
+.ladyGlass {
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+.ItSecImg {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+   .itInfo button {
+        margin-top: 30px;
+        margin-left: 95px;
+        padding: 10px 20px;
+    }
+    .blueBox, .webImage {
+        z-index: 2;
+    }
+
+    .design {
+        height: 575px;
+        width: 500px;
+
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    .webInfo {
+        z-index: 3;
+    }
+    .processSection {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    padding: 0 80px;
+    margin-top: 10%;
+    }
+    .processSection h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        width: 100%;
+    }
+    .line {
+        width: 30%;
+    }
+    .processInfo {
+        width: 100%;
+    }
+    .inTouchSection h2 {
+        width: 80%;
+    }
+    .card1, .card2, .card3 {
+    height: 250px;
+    width: 300px;
+
+    }
+
+    .card1 img {
+        margin-top: 55px;
+    }
+    .card1 p {
+        margin-bottom: 38px;
+    }
+}
