@@ -750,7 +750,7 @@ footer {
 
 /* Tablet media queries */
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .navigation ul {
         display: none;
     }
@@ -758,11 +758,19 @@ footer {
         display: block;
         z-index: 1;
     }
+    .landingInfo {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
     .landingImg {
-    height: 375px;
-    width: 375px;
-    margin-right: 45px;
-    margin-top: 70px;
+    height: 25px;
+    width: 25px;
+    z-index: 5;
+    position: absolute;
+    top: 30%;
+    left: 10%;
     }
     .aboutLanding h1 {
     font-size: 2.5rem;
@@ -814,19 +822,22 @@ footer {
     }
 
     .dataSection img {
-        height: 300px;
-        width: 620px;
-        background: rgb(69, 7, 150);
+        height: 1000px;
+        width: 1000px;
+        margin-top: 50px;
+        margin-left: 50px;
     }
 
     .dataSection {
-        display: block;
+        width: 100%;
+        padding: 0;
     }
 
     .vizInfo {
-        display: inline;
-        margin: 0;
-        padding: 0;
+        margin-top: 30%;
+        height: 50%;
+        line-height: 1;
+        margin-right: 20px;
     }
 
     .vizInfo h2{
@@ -835,6 +846,7 @@ footer {
 
     .solutionSection {
         flex-direction: column;
+        position: relative;
     }
 
     .solutionsInfo {
@@ -843,6 +855,10 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .solImg {
+        position: relative;
     }
 
     .solutionsInfo p {
@@ -856,30 +872,23 @@ footer {
 
     .solutionsIcon {
         margin-top: 80px;
-        padding-left: 18%;
+        margin-left: 105px;
+        padding-left: 85%;
+        position: relative;
     }
 
     .spinGear {
-        top: 10%;
-        left: 30%;
+        top: 12%;
+        left: 55%;
     }
 
     .magnifier {
-        top: 30%;
-        right: 10%;
+        display: none;
     }
     
     .squareLines {
     height: 550px;
     width: 500px;
-    }
-
-    .ladyGlass {
-    height: 500px;
-    width: 600px;
-    position: absolute;
-    top: 8%;
-    right: 18%;
     }
 
     .ItSection {
@@ -931,8 +940,8 @@ footer {
         padding: 0 20px;
     }
     .itInfo button {
-        margin: 0 auto;
         margin-top: 30px;
+        margin-right: 10%;
         padding: 10px 20px;
     }
     .webSection {
@@ -978,7 +987,7 @@ footer {
     }
 
     .inTouchSection {
-        height: 90vh;
+        height: 100vh;
     }
 
     .inTouchSection h1 {
@@ -997,9 +1006,10 @@ footer {
 }
 
 
-.card1, .card2, .card3 {
-    height: 350px;
+div .card1, div .card2, div .card3 {
+    height: 400px;
     width: 225px;
+    margin-top: 80px;
     padding: 0;
 }
 
@@ -1035,7 +1045,7 @@ footer {
 
 /* Tablet landscape media queries */
 
-@media(max-width: 102px) {
+@media(max-width: 1024px) {
 .navigation ul {
     display: none;
 }
