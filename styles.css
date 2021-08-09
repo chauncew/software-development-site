@@ -5,6 +5,27 @@
     font-family: sans-serif;
 }
 
+html {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hamburger {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    display: none;
+}
+
 .landingPage {
     height: 100vh;
     width: 100%;
@@ -736,4 +757,36 @@ footer {
     align-items: center;
     font-size: 1.2rem;
     letter-spacing: 1.5px;
+}
+
+@media (max-width: 770px) {
+    .navigation ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .landingImg {
+    height: 375px;
+    width: 375px;
+    margin-right: 45px;
+    margin-top: 70px;
+    }
+    .aboutLanding h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    }
+    .aboutLanding p {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    }
+    .aboutLanding button {
+    font-size: 1rem;
+    letter-spacing: 2.2px;
+    padding: 15px 30px;
+    }
+    .landingPage {
+        height: 80vh;
+    }
 }
